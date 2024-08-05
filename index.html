@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Rocketry XML Generator</title>
+    <script src="script.js" defer></script>
+    <style>
+        label,
+        input,
+        textarea,
+        select,
+        span,
+        button {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Advanced Rocketry XML Generator</h1>
+    <h3>Setup</h3>
+    <p>Make "planetDefs.xml" in minecraft/config/advRocketry.</p>
+    <p>Not forget to define Overworld Planet.</p>
+    <a href="http://arwiki.dmodoomsirius.me/AdvancedRocketry/1.12.2/config/index.html">Advanced Rocketry
+        Documentation</a>
+    <p>Author: Chlorine</p>
+    <p>Discord: chlorine0808</p>
+
+    <h2>Planet Generation Form</h2>
+    <h3>AR supports n-body star system and satellites.</h3>
+    <h3>But this tool only supports only single star systems with no satellites.</h3>
+    <form id="planetForm"></form>
+
+    <h2>Planet XML</h2>
+    <p>Copy and Paste between &lt;galaxy&gt; and &lt;/galaxy&gt;</p>
+    <textarea id="planetXML" rows="20" cols="80"></textarea>
+
+    <h2>Asteroid Generation Form</h2>
+    <form id="asteroidForm"></form>
+    <textarea id="asteroidXML" rows="20" cols="80"></textarea>
+</body>
+
+</html>
